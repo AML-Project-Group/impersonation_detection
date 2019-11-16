@@ -1,8 +1,12 @@
 # impersonation_detection
 
+
 PLANNING (GROUP)
 
 PRE-PROCESSING (INDIVIDUAL 1) - Michael
+
+* Note: locally I'm using Jupyter, but I'm pushing a .py file rather than an .ipynb because maybe someone else want to use another tool. In Jupyter I do not use the print statement, then you have to add it if necessary  
+
 * The dataframe has many attributes with no values, then I used a for loop to sum the values for each columns: if the sum == 0, then the attibute is deleted. From the original 155 attributes we end up with 80.
 
 * The class 155 is perfectly balanced: 50% with value 0, 50% with value 1
