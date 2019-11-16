@@ -1,6 +1,7 @@
 import csv
 import numpy
 import pandas as pd
+from matplotlib import pyplot
 
 # change the path with your local path
 filename = r'C:\Users\user\jupyterSourceFiles\datasets\awid\train_imperson_without4n7_balanced_data.csv'
@@ -62,7 +63,27 @@ dfTrain80 = dfTrain[LoCorr80]
 skew = dfTrain20.skew()
 skew
 
+# plot the data for dfTrain20
+# each plot requires a certain amount of time
 
+# density plot
+dfTrain20.plot(kind='density', subplots=True, layout=(5,5), sharex=False, figsize=(20,14))
+pyplot.show()
+
+# histogram plot
+dfTrain20.hist(figsize=(30,14))
+pyplot.show()
+
+# Box and Whisker Plot
+dfTrain20.plot(kind='box', subplots=True, layout=(5,5), sharex=False, sharey=False, figsize=(20,14))
+pyplot.show()
+
+# Scatterplot Matrix
+# commented out as it takes a lot to run
+
+# from pandas.plotting import scatter_matrix
+# scatter_matrix(dfTrain20, figsize=[20, 20])
+# pyplot.show()
 
 
 
