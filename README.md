@@ -25,6 +25,16 @@ PRE-PROCESSING (INDIVIDUAL 1) - Michael
 
 SELECTING FEATURES (INDIVIDUAL 2)
 
+* Conducted t-tests on the remaining features to see if any weren't varying significantly under the two classes
+
+* Majority had extremely small p-values
+
+* Used logistic regression as quick baseline
+
+* Little value in selection by t-test p-value
+
+* PCA much more productive. Logistic regression score of 97% on test data when using first 10 principal components
+
 EXPLORING AND SELECTING ML ALGORITHMS (INDIVIDUAL 3)
 
 REFINING ALGORITHMS (INDIVIDUAL 4)
