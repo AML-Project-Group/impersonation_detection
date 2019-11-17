@@ -19,7 +19,9 @@ PRE-PROCESSING (INDIVIDUAL 1) - Michael
 
 * In the first smaller dataframe, none of the attributes has a normal form
 
-* This weekend I'm going to work on the data transformation, in particular the normalisation
+* Tried to transform the data using normalisation, standardisation and also PowerTransformer, but there was no or just little improvement in the normal distribution
+
+* Decided to binarise every attributes: not sure this is the best solution, need to check the results 
 
 
 
