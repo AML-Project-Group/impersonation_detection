@@ -13,11 +13,13 @@ PRE-PROCESSING (INDIVIDUAL 1) - Michael
 
 * The remaining 78 features have been subdivided into 4 groups on the basis of the correlation. We then have the original dataframe and 4 smaller dataframe: we could test each of them to see where we get the best results 
 
-* In the first smaller dataframe, none of the features has a normal form
+* In the first smaller dataframe, df20, none of the features has a normal form
 
 * Tried to transform the data using normalisation, standardisation and also PowerTransformer, but there was no or just little improvement in the normal distribution
 
-* Decided to binarise every features: not sure this is the best solution, need to check the results 
+* Decided to binarise every non-binary features: not sure this is the best solution
+
+* Binarised also the other dataframes, so now there are 10 dataframes to test: the original one, the 4 smaller ones and the binarised versions
 
 
 
