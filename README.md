@@ -35,7 +35,7 @@ SELECTING FEATURES (INDIVIDUAL 2)
 
 * PCA much more productive. Logistic regression score of 97% on test data when using first 10 principal components
 
-EXPLORING AND SELECTING ML ALGORITHMS (INDIVIDUAL 3)
+EXPLORING AND SELECTING ML ALGORITHMS (INDIVIDUAL 3) - Tim
 
 REFINING ALGORITHMS (INDIVIDUAL 4)
 
