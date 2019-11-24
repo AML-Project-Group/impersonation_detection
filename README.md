@@ -9,11 +9,13 @@ PRE-PROCESSING (INDIVIDUAL 1) - Michael
 
 * The class 155 is perfectly balanced: 50% with value 0, 50% with value 1
 
-* The features have been sorted by correlation with the class, from the highest positive to the highest negative 
+* The features have been sorted by correlation (Pearson) with the class, from the highest positive to the highest negative 
 
 * The remaining 78 features have been subdivided into 4 groups on the basis of the correlation. We then have the original dataframe and 4 smaller dataframe: we could test each of them to see where we get the best results 
 
 * In the first smaller dataframe, df20, none of the features has a normal form
+
+* When we have no normal distribution, it is possible to use non-parametric statistics like the Kendall and Spearman correlations. Compared to Pearson's, these two correlations show some differences. The file FeaturesByCorrelation.md shows a table with values for the 3 correlations (Pearson, Kendall, Spearman)
 
 * Tried to transform the data using normalisation, standardisation and also PowerTransformer, but there was no or just little improvement in the normal distribution
 
