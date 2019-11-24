@@ -1,80 +1,80 @@
-| Column        | Name           | Correlation  |
+| Column        | Name           | Pearson Corr  | Kendall Corr  | Spearman Corr  |
 | ------------- |:-------------:| -----:|
-|	71	|	wlan.fc.pwrmgt	|	0.708561	|
-|	50	|	radiotap.channel.type.cck	|	0.652165	|
-|	68	|	wlan.fc.ds	|	0.525254	|
-|	38	|	radiotap.mactime	|	0.496848	|
-|	73	|	wlan.fc.protected	|	0.477183	|
-|	66	|	wlan.fc.type	|	0.385492	|
-|	140	|	wlan.wep.iv	|	0.180674	|
-|	61	|	radiotap.dbm_antsignal	|	0.116366	|
-|	142	|	wlan.wep.icv	|	0.115751	|
-|	79	|	wlan.sa	|	0.08186	|
-|	6	|	frame.time_delta_displayed	|	0.05841	|
-|	5	|	frame.time_delta	|	0.05841	|
-|	64	|	wlan.fc.type_subtype	|	0.03093	|
-|	80	|	wlan.bssid	|	0.030155	|
-|	18	|	radiotap.present.channel	|	0.014712	|
-|	20	|	radiotap.present.dbm_antsignal	|	0.014712	|
-|	16	|	radiotap.present.flags	|	0.014712	|
-|	26	|	radiotap.present.antenna	|	0.014712	|
-|	29	|	radiotap.present.rxflags	|	0.014712	|
-|	43	|	radiotap.flags.fcs	|	0.014712	|
-|	89	|	wlan.fcs_good	|	0.014712	|
-|	52	|	radiotap.channel.type.2ghz	|	0.014712	|
-|	15	|	radiotap.present.tsft	|	0.014712	|
-|	62	|	radiotap.antenna	|	0.014712	|
-|	14	|	radiotap.length	|	0.014712	|
-|	48	|	radiotap.channel.freq	|	0.014634	|
-|	111	|	wlan_mgt.fixed.auth.alg	|	0.005809	|
-|	138	|	wlan_mgt.tcprep.trsmt_pow	|	-0.00321	|
-|	133	|	wlan_mgt.rsn.capabilities.ptksa_replay_counter	|	-0.00321	|
-|	97	|	wlan_mgt.fixed.capabilities.spec_man	|	-0.00321	|
-|	83	|	wlan.bar.type	|	-0.00454	|
-|	105	|	wlan_mgt.fixed.current_ap	|	-0.005242	|
-|	113	|	wlan_mgt.fixed.category_code	|	-0.00556	|
-|	88	|	wlan.ba.bm	|	-0.005912	|
-|	117	|	wlan_mgt.fixed.sequence	|	-0.007129	|
-|	84	|	wlan.ba.control.ackpolicy	|	-0.007863	|
-|	108	|	wlan_mgt.fixed.beacon	|	-0.008767	|
-|	86	|	wlan.ba.control.cbitmap	|	-0.00908	|
-|	120	|	wlan_mgt.ds.current_channel	|	-0.013133	|
-|	78	|	wlan.ta	|	-0.01935	|
-|	119	|	wlan_mgt.ssid	|	-0.019404	|
-|	123	|	wlan_mgt.tim.bmapctl.multicast	|	-0.024873	|
-|	144	|	wlan.ccmp.extiv	|	-0.02603	|
-|	106	|	wlan_mgt.fixed.status_code	|	-0.028733	|
-|	72	|	wlan.fc.moredata	|	-0.029548	|
-|	98	|	wlan_mgt.fixed.capabilities.short_slot_time	|	-0.029967	|
-|	90	|	wlan_mgt.fixed.capabilities.ess	|	-0.033849	|
-|	125	|	wlan_mgt.country_info.environment	|	-0.038843	|
-|	118	|	wlan_mgt.tagged.all	|	-0.042259	|
-|	112	|	wlan_mgt.fixed.auth_seq	|	-0.053665	|
-|	93	|	wlan_mgt.fixed.capabilities.privacy	|	-0.054233	|
-|	109	|	wlan_mgt.fixed.aid	|	-0.056225	|
-|	104	|	wlan_mgt.fixed.listen_ival	|	-0.058778	|
-|	121	|	wlan_mgt.tim.dtim_count	|	-0.068407	|
-|	143	|	wlan.tkip.extiv	|	-0.091603	|
-|	76	|	wlan.ra	|	-0.09987	|
-|	141	|	wlan.wep.key	|	-0.104006	|
-|	128	|	wlan_mgt.rsn.pcs.count	|	-0.147055	|
-|	127	|	wlan_mgt.rsn.gcs.type	|	-0.148324	|
-|	129	|	wlan_mgt.rsn.akms.count	|	-0.14836	|
-|	130	|	wlan_mgt.rsn.akms.type	|	-0.14836	|
-|	126	|	wlan_mgt.rsn.version	|	-0.14836	|
-|	107	|	wlan_mgt.fixed.timestamp	|	-0.1506	|
-|	94	|	wlan_mgt.fixed.capabilities.preamble	|	-0.168196	|
-|	122	|	wlan_mgt.tim.dtim_period	|	-0.182614	|
-|	77	|	wlan.da	|	-0.201783	|
-|	110	|	wlan_mgt.fixed.reason_code	|	-0.256507	|
-|	70	|	wlan.fc.retry	|	-0.285381	|
-|	75	|	wlan.duration	|	-0.296245	|
-|	154	|	data.len	|	-0.434536	|
-|	9	|	frame.cap_len	|	-0.438183	|
-|	8	|	frame.len	|	-0.438183	|
-|	145	|	wlan.qos.tid	|	-0.453058	|
-|	146	|	wlan.qos.priority	|	-0.453058	|
-|	82	|	wlan.seq	|	-0.493602	|
-|	47	|	radiotap.datarate	|	-0.618997	|
-|	51	|	radiotap.channel.type.ofdm	|	-0.651828	|
-|	67	|	wlan.fc.subtype	|	-0.838937	|
+|	71	|	wlan.fc.pwrmgt	|	0.708561	|	0.708561	|	0.708561	|
+|	50	|	radiotap.channel.type.cck	|	0.652165	|	0.652165	|	0.652165	|
+|	68	|	wlan.fc.ds	|	0.525254	|	0.52784	|	0.539139	|
+|	38	|	radiotap.mactime	|	0.496848	|	0.44858	|	0.549358	|
+|	73	|	wlan.fc.protected	|	0.477183	|	0.477183	|	0.477183	|
+|	66	|	wlan.fc.type	|	0.385492	|	0.420697	|	0.43509	|
+|	140	|	wlan.wep.iv	|	0.180674	|	0.24599	|	0.285182	|
+|	61	|	radiotap.dbm_antsignal	|	0.116366	|	-0.106813	|	-0.12261	|
+|	142	|	wlan.wep.icv	|	0.115751	|	0.230346	|	0.267047	|
+|	79	|	wlan.sa	|	0.08186	|	0.725743	|	0.800862	|
+|	6	|	frame.time_delta_displayed	|	0.05841	|	0.517106	|	0.632906	|
+|	5	|	frame.time_delta	|	0.05841	|	0.517106	|	0.632906	|
+|	64	|	wlan.fc.type_subtype	|	0.03093	|	-0.019666	|	-0.021453	|
+|	80	|	wlan.bssid	|	0.030155	|	0.452988	|	0.463607	|
+|	18	|	radiotap.present.channel	|	0.014712	|	0.014712	|	0.014712	|
+|	20	|	radiotap.present.dbm_antsignal	|	0.014712	|	0.014712	|	0.014712	|
+|	16	|	radiotap.present.flags	|	0.014712	|	0.014712	|	0.014712	|
+|	26	|	radiotap.present.antenna	|	0.014712	|	0.014712	|	0.014712	|
+|	29	|	radiotap.present.rxflags	|	0.014712	|	0.014712	|	0.014712	|
+|	43	|	radiotap.flags.fcs	|	0.014712	|	0.014712	|	0.014712	|
+|	89	|	wlan.fcs_good	|	0.014712	|	0.014712	|	0.014712	|
+|	52	|	radiotap.channel.type.2ghz	|	0.014712	|	0.014712	|	0.014712	|
+|	15	|	radiotap.present.tsft	|	0.014712	|	0.014712	|	0.014712	|
+|	62	|	radiotap.antenna	|	0.014712	|	0.014712	|	0.014712	|
+|	14	|	radiotap.length	|	0.014712	|	0.014712	|	0.014712	|
+|	48	|	radiotap.channel.freq	|	0.014634	|	0.003032	|	0.003033	|
+|	111	|	wlan_mgt.fixed.auth.alg	|	0.005809	|	0.005809	|	0.005809	|
+|	138	|	wlan_mgt.tcprep.trsmt_pow	|	-0.00321	|	-0.00321	|	-0.00321	|
+|	133	|	wlan_mgt.rsn.capabilities.ptksa_replay_counter	|	-0.00321	|	-0.00321	|	-0.00321	|
+|	97	|	wlan_mgt.fixed.capabilities.spec_man	|	-0.00321	|	-0.00321	|	-0.00321	|
+|	83	|	wlan.bar.type	|	-0.00454	|	-0.00454	|	-0.00454	|
+|	105	|	wlan_mgt.fixed.current_ap	|	-0.005242	|	-0.00556	|	-0.00556	|
+|	113	|	wlan_mgt.fixed.category_code	|	-0.00556	|	-0.00556	|	-0.00556	|
+|	88	|	wlan.ba.bm	|	-0.005912	|	-0.007863	|	-0.007863	|
+|	117	|	wlan_mgt.fixed.sequence	|	-0.007129	|	-0.00908	|	-0.00908	|
+|	84	|	wlan.ba.control.ackpolicy	|	-0.007863	|	-0.007863	|	-0.007863	|
+|	108	|	wlan_mgt.fixed.beacon	|	-0.008767	|	-0.008767	|	-0.008767	|
+|	86	|	wlan.ba.control.cbitmap	|	-0.00908	|	-0.00908	|	-0.00908	|
+|	120	|	wlan_mgt.ds.current_channel	|	-0.013133	|	-0.013142	|	-0.013154	|
+|	78	|	wlan.ta	|	-0.01935	|	0.269324	|	0.280235	|
+|	119	|	wlan_mgt.ssid	|	-0.019404	|	-0.011709	|	-0.011853	|
+|	123	|	wlan_mgt.tim.bmapctl.multicast	|	-0.024873	|	-0.024873	|	-0.024873	|
+|	144	|	wlan.ccmp.extiv	|	-0.02603	|	-0.028718	|	-0.028724	|
+|	106	|	wlan_mgt.fixed.status_code	|	-0.028733	|	-0.028733	|	-0.028733	|
+|	72	|	wlan.fc.moredata	|	-0.029548	|	-0.029548	|	-0.029548	|
+|	98	|	wlan_mgt.fixed.capabilities.short_slot_time	|	-0.029967	|	-0.029967	|	-0.029967	|
+|	90	|	wlan_mgt.fixed.capabilities.ess	|	-0.033849	|	-0.033849	|	-0.033849	|
+|	125	|	wlan_mgt.country_info.environment	|	-0.038843	|	-0.039212	|	-0.039214	|
+|	118	|	wlan_mgt.tagged.all	|	-0.042259	|	-0.042259	|	-0.042259	|
+|	112	|	wlan_mgt.fixed.auth_seq	|	-0.053665	|	-0.06228	|	-0.062321	|
+|	93	|	wlan_mgt.fixed.capabilities.privacy	|	-0.054233	|	-0.054233	|	-0.054233	|
+|	109	|	wlan_mgt.fixed.aid	|	-0.056225	|	-0.0579	|	-0.057901	|
+|	104	|	wlan_mgt.fixed.listen_ival	|	-0.058778	|	-0.059727	|	-0.059731	|
+|	121	|	wlan_mgt.tim.dtim_count	|	-0.068407	|	-0.068407	|	-0.068407	|
+|	143	|	wlan.tkip.extiv	|	-0.091603	|	-0.105542	|	-0.105835	|
+|	76	|	wlan.ra	|	-0.09987	|	-0.747373	|	-0.809785	|
+|	141	|	wlan.wep.key	|	-0.104006	|	-0.105829	|	-0.105837	|
+|	128	|	wlan_mgt.rsn.pcs.count	|	-0.147055	|	-0.148253	|	-0.148358	|
+|	127	|	wlan_mgt.rsn.gcs.type	|	-0.148324	|	-0.148359	|	-0.14836	|
+|	129	|	wlan_mgt.rsn.akms.count	|	-0.14836	|	-0.14836	|	-0.14836	|
+|	130	|	wlan_mgt.rsn.akms.type	|	-0.14836	|	-0.14836	|	-0.14836	|
+|	126	|	wlan_mgt.rsn.version	|	-0.14836	|	-0.14836	|	-0.14836	|
+|	107	|	wlan_mgt.fixed.timestamp	|	-0.1506	|	-0.204285	|	-0.206388	|
+|	94	|	wlan_mgt.fixed.capabilities.preamble	|	-0.168196	|	-0.168196	|	-0.168196	|
+|	122	|	wlan_mgt.tim.dtim_period	|	-0.182614	|	-0.193121	|	-0.193806	|
+|	77	|	wlan.da	|	-0.201783	|	-0.289967	|	-0.315015	|
+|	110	|	wlan_mgt.fixed.reason_code	|	-0.256507	|	-0.256019	|	-0.256714	|
+|	70	|	wlan.fc.retry	|	-0.285381	|	-0.285381	|	-0.285381	|
+|	75	|	wlan.duration	|	-0.296245	|	-0.620754	|	-0.644724	|
+|	154	|	data.len	|	-0.434536	|	0.006752	|	0.007297	|
+|	9	|	frame.cap_len	|	-0.438183	|	-0.119957	|	-0.133869	|
+|	8	|	frame.len	|	-0.438183	|	-0.119957	|	-0.133869	|
+|	145	|	wlan.qos.tid	|	-0.453058	|	-0.453468	|	-0.45347	|
+|	146	|	wlan.qos.priority	|	-0.453058	|	-0.453468	|	-0.45347	|
+|	82	|	wlan.seq	|	-0.493602	|	-0.234276	|	-0.279561	|
+|	47	|	radiotap.datarate	|	-0.618997	|	-0.6505	|	-0.679098	|
+|	51	|	radiotap.channel.type.ofdm	|	-0.651828	|	-0.651828	|	-0.651828	|
+|	67	|	wlan.fc.subtype	|	-0.838937	|	-0.783199	|	-0.839979	|
