@@ -1,3 +1,5 @@
+The 78 features are sorted by the default correlation (Pearson), from the highest positive. Kendall and Spearman correlations do not assume a normal distribution:
+
 | Column        | Name           | Pearson Corr  | Kendall Corr  | Spearman Corr  |
 | ------------- |:-------------:| -----:| -----:| -----:|
 |	71	|	wlan.fc.pwrmgt	|	0.708561	|	0.708561	|	0.708561	|
