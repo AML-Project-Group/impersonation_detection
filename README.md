@@ -31,11 +31,17 @@ SELECTING FEATURES (INDIVIDUAL 2) - Ian
 
 * Majority had extremely small p-values
 
-* Used logistic regression as quick baseline
+* Some features are very sparse - consider eliminating them in preprocessing
 
-* Little value in selection by t-test p-value
+* Used logistic regression as quick baseline using 60/40 split
 
-* PCA much more productive. Logistic regression score of 97% on test data when using first 10 principal components
+* Evaluated using recall as metric - is this the most important to us?
+
+* Combination of around 30 features with low p-value, some correlation with target, and healthy proportion of non-zero values achieves good recall
+
+* So does first 10 or 20 principal components
+
+* Some features already have only 2 values - consider treating these separately and standardising the others in preprocessing?
 
 EXPLORING AND SELECTING ML ALGORITHMS (INDIVIDUAL 3) - Tim
 
