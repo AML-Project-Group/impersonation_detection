@@ -23,6 +23,8 @@ PRE-PROCESSING (INDIVIDUAL 1) - Michael
 
 * Binarised also the other dataframes, so now there are 10 dataframes to test: the original one, the 4 smaller ones and the binarised versions
 
+* After splitting the training set into 2 parts, some dataframes show good results (accuracy > 98%), but the best result is with the dataframe using the non-paramtric correlations: in particular the dataframe using the first 18 common features having the highest positive Kendall/Spearman correlation. Using only these 18 features the accuracy is 100% on the validation set
+
 
 
 SELECTING FEATURES (INDIVIDUAL 2) - Ian
