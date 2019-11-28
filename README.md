@@ -45,6 +45,8 @@ SELECTING FEATURES (INDIVIDUAL 2) - Ian
 
 * Some features already have only 2 values - consider treating these separately and standardising the others in preprocessing?
 
+* Challenge is that it's quite easy to get 99%+ recall with not very well chosen features on a train/test split of the training data, but this is not translating into high recall on the test data
+
 EXPLORING AND SELECTING ML ALGORITHMS (INDIVIDUAL 3) - Tim
 
 REFINING ALGORITHMS (INDIVIDUAL 4) - Cosmin
