@@ -45,7 +45,7 @@ SELECTING FEATURES (INDIVIDUAL 2) - Ian
 
 * Some features already have only 2 values - consider treating these separately and standardising the others in preprocessing?
 
-* Challenge is that it's quite easy to get 99%+ recall with not very well chosen features on a train/test split of the training data, but this is not translating into high recall on the test data
+* Challenge is that it's quite easy to get 99%+ recall without careful feature selection on a train/test split of the training data, but this is not translating into high recall on the test data
 
 * Suggest a good balance may be provided by a combination of A) about five features with high absolute value of kendal's rho, B) about five features with highest mutual information and C) the first ten to twenty principle components
 
