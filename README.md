@@ -45,6 +45,12 @@ SELECTING FEATURES (INDIVIDUAL 2) - Ian
 
 * Some features already have only 2 values - consider treating these separately and standardising the others in preprocessing?
 
+* Challenge is that it's quite easy to get 99%+ recall without careful feature selection on a train/test split of the training data, but this is not translating into high recall on the test data
+
+* A good balance may be provided by a combination of A) five to ten features with high absolute value of kendal's rho with the target, B) five to ten features with highest mutual information and C) the first ten to twenty principle components
+
+* Perhaps look into algorithms that are better at dealing with difficult/resistant cases - boosting for example - as this could give better performance on the test data
+
 EXPLORING AND SELECTING ML ALGORITHMS (INDIVIDUAL 3) - Tim
 
 REFINING ALGORITHMS (INDIVIDUAL 4) - Cosmin
