@@ -47,6 +47,10 @@ SELECTING FEATURES (INDIVIDUAL 2) - Ian
 
 * Challenge is that it's quite easy to get 99%+ recall with not very well chosen features on a train/test split of the training data, but this is not translating into high recall on the test data
 
+* Suggest a good balance may be provided by a combination of A) about five features with high absolute value of kendal's rho, B) about five features with highest mutual information and C) the first ten to twenty principle components
+
+* Perhaps look into algorithms that are better at dealing with difficult/resistant cases - boosting for example - as this could give better performance on the test data
+
 EXPLORING AND SELECTING ML ALGORITHMS (INDIVIDUAL 3) - Tim
 
 REFINING ALGORITHMS (INDIVIDUAL 4) - Cosmin
