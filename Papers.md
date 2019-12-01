@@ -1,4 +1,6 @@
-###### **Intrusion Detection in 802.11 (Kolias...) - 2015 - AWID-CLS-R - 4 classes - 155 and 20 features**
+The following 3 paper have been recommended by the professor: 
+
+###### **Intrusion Detection in 802.11 (Kolias...) - 2015 - AWID-CLS-R - impersonation, flooding, injection - 155 and 20 features**
 
 Tried several algorithms first without feature selection (155) and then using 20 features manually selected. 
 Using every features, the best result was with the J48 algorithm (based on the C4.5 decision tree) but takes long time, then the preferable ones are Random Forest and OneR.
@@ -14,4 +16,11 @@ There are 2 steps: the feature extraction (unsupervised auto encoder) creates 50
 
 Two models are proposed: the common part is the Deep Extraction and Mutual Information Selection (DEMISe), where additional features are extracted using a two-layer deep-structured stacked encoder (SAE, used in the previous work). 
 The DEMISe  is combined with a Radial Basis Function Classifier (DEMISe-RBFC, 20 features) and with a Tree Evaluation and Regression Detection (DETEReD, 10 features), using a C4.8 tree-based wrapper. 
-The results are comparable to the previous paper, but the biggest improvement is in the build time, 72.14% and 52.29% faster
+The results are comparable to the previous paper, but the biggest improvement is in the build time, 72.14% and 52.29% faster 
+
+
+Additional papers:  
+
+###### **An efficient deep learning model for intrusion classification  (Rezvy...) - 2019 - AWID-CLS-R - impersonation, flooding, injection - 36 features**
+In pre-processing the duplicated features have been removed after a statistical analysis ending up with only 36 features. The model proposed has two stages: 1 an unsupervised pre-training with Autoencoder; 2 a supervised classification with a three-layer dense neural network.
+The overall accuracy is 99.9%, the impersonation detection accuracy is 99.9%
