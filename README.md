@@ -53,6 +53,35 @@ SELECTING FEATURES (INDIVIDUAL 2) - Ian
 
 EXPLORING AND SELECTING ML ALGORITHMS (INDIVIDUAL 3) - Tim
 
+
+* Used the data set containing 79 columns.
+
+* Create Randomforest model including bagging, with 100 tree. Results provied extremely accurate (split train/test - 80/20%)
+
+* Limited the RandomForest to three layers. Results significantly reduced.
+
+* In both cases, there are no real node importances that stand out. Some nodes have 0 importance.
+
+* Next steps would be to remove features with 0 importance in both trees, and re-run.
+
+* NN with 5 layers (small), and 5 neuron per layer. In reality this is quite small. 
+
+* Prediction results were pretty good.
+
+* Next steps would be to try NN with more neurons (considering we hae 78 features, try 78), and more neuron layers.
+
+FEATURE SELECTION:
+
+* Completed Chi2 tests on categorical variables. Identified categorical variables with <6 unique values (Question: Is this correct?).
+
+*TO DO: 
+
+Feature Selection: Do PCA between continuous variables ONLY. This can reduce multicolinearity. Use reduced PCAs for continuous data. To feed into models.
+
+Model evaluations: Use the p-value features < 0.05 from chi2, and the transformed continuous data from PCA above in Logistic Regression, RF and NN. 
+
+
+
 REFINING ALGORITHMS (INDIVIDUAL 4) - Cosmin
 
 EVALUATING MODEL AND ANALYSING THE RESULTS (INDIVIDUAL 5) - Mike
