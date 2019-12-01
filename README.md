@@ -18,7 +18,7 @@ PRE-PROCESSING (INDIVIDUAL 1) - Michael
 
 * Decided to binarise every non-binary features: not sure this is the best solution
 
-* Now there are 2 dataframes available: df and df_binarized (both with 79 features + 1 class)
+* Now there are 2 dataframes available: df and df_binarized (having both 79 features + 1 class)
 
 
 
