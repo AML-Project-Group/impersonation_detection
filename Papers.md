@@ -1,4 +1,4 @@
-The following 3 paper have been recommended by the professor: 
+##### The following 3 papers have been recommended by the professor: 
 
 ###### **Intrusion Detection in 802.11 (Kolias et alii) - 2015 - AWID-CLS-R - impersonation, flooding, injection - 155 and 20 features**
 
@@ -19,12 +19,12 @@ The DEMISe  is combined with a Radial Basis Function Classifier (DEMISe-RBFC, 20
 The results are comparable to the previous paper, but the biggest improvement is in the build time, 72.14% and 52.29% faster 
 
 
-Additional papers:  
+##### Additional papers:  
 
 ###### **An efficient deep learning model for intrusion classification  (Rezvy et alii) - 2019 - AWID-CLS-R - impersonation, flooding, injection - 36 features**
 In pre-processing the duplicated features have been removed after a statistical analysis ending up with only 36 features. The model proposed has two stages: 1 an unsupervised pre-training with Autoencoder; 2 a supervised classification with a three-layer dense neural network.
 The overall accuracy is 99.9%, the impersonation detection accuracy is 99.9% 
 
 
-###### **On Evaluation of Network Intrusion Detection Systems  (Rezvy et alii) - 2018 - CIDDS-001**
+###### **On Evaluation of Network Intrusion Detection Systems  (Verma, Ranga) - 2018 - CIDDS-001**
 This paper does not analyse the AWID dataset, yet it can be interesting as it applies different algorithms, supervised and unsupervised, from DT to DNN. 
