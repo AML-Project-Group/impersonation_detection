@@ -84,4 +84,10 @@ REFINING ALGORITHMS (INDIVIDUAL 4) - Cosmin
 
 EVALUATING MODEL AND ANALYSING THE RESULTS (INDIVIDUAL 5) - Mike
 
+* Performance Measure (classification accuracy, regression, and clustering)
+- Confusion matrix - Precision - Recall -Specificity - F1 score
+-PR curve - ROC curve
+* Cross Validation
+* Testing Algorithms (Test Datasets)
+
 FUTURE WORK (GROUP)
