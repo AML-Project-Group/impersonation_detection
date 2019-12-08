@@ -49,6 +49,20 @@ SELECTING FEATURES (INDIVIDUAL 2) - Ian
 
 * Perhaps look into algorithms that are better at dealing with difficult/resistant cases - boosting for example - as this could give better performance on the test data
 
+* `feature selection with dataframe generator` has preprocessing steps and feature selection based on four criteria
+ * first n principal components (highly correlated features already removed)
+ * high absolute pearson
+ * high absolute kendall
+ * high mutual information
+
+* now removes highly correlated continuous features, and nearly identical categorical features (Tim's def of categorical)
+
+* the function `get_df` returns a dataframe with selected features for further use
+
+* TODO add chi2 threshold for selection, although I'm not sure chi2 will see anything that MI misses
+
+* TODO add randomforest importance measure
+
 EXPLORING AND SELECTING ML ALGORITHMS (INDIVIDUAL 3) - Tim
 
 
