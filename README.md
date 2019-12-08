@@ -59,7 +59,7 @@ SELECTING FEATURES (INDIVIDUAL 2) - Ian
 
 * the function `get_df` returns a dataframe with selected features for further use
 
-* TODO add chi2 threshold for selection, although I'm not sure chi2 will see anything that MI misses
+* TODO add chi2 threshold for selection, (although I'm not sure MI will miss anything that chi2 would pick up?)
 
 * TODO add randomforest importance measure
 
