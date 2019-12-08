@@ -19,6 +19,7 @@ The DEMISe  is combined with a Radial Basis Function Classifier (DEMISe-RBFC, 20
 The results are comparable to the previous paper, but the biggest improvement is in the build time, 72.14% and 52.29% faster 
 
 
+
 ##### Additional papers:  
 
 ###### **An efficient deep learning model for intrusion classification  (Rezvy et alii) - 2019 - AWID-CLS-R - impersonation, flooding, injection - 36 features**
@@ -27,4 +28,8 @@ The overall accuracy is 99.9%, the impersonation detection accuracy is 99.9%
 
 
 ###### **On Evaluation of Network Intrusion Detection Systems  (Verma, Ranga) - 2018 - CIDDS-001**
-This paper does not analyse the AWID dataset, yet it can be interesting as it applies different algorithms, supervised and unsupervised, from DT to DNN. 
+This paper does not analyse the AWID dataset, yet it can be interesting as it applies different algorithms, supervised and unsupervised, from DT to DNN.  
+
+
+###### **Multistage System-based Machine Learning Techniques for Intrusion Detection in WiFi Network (Vu Viet Thang et alii) - 2019 - AWID - impersonation, flooding, injection - 35 features** 
+Through an Artificial Neural Network, 35 features have been extracted and used. This paper proposes an incremental semisupervised graph-based clustering and a fast outliers detection method based on local density score and K-means clustering. The overall accuracy is 98.9% 
