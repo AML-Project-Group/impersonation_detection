@@ -103,5 +103,6 @@ EVALUATING MODEL AND ANALYSING THE RESULTS (INDIVIDUAL 5) - Mike
 -PR curve - ROC curve
 * Cross Validation
 * Testing Algorithms (Test Datasets)
+TO DO: - ValueError: shapes (40158,19) and (20,12) not aligned: 19 (dim 1) != 20 (dim 0)
 
 FUTURE WORK (GROUP)
