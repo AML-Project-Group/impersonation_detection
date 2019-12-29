@@ -5,24 +5,21 @@ PLANNING (GROUP)
 
 PRE-PROCESSING (INDIVIDUAL 1) - Michael
 
-* The dataframe has many features with no values, then I used a for loop check the std for each columns: if the std == 0, then the feature is deleted. From the original 153 features we end up with 79.
+* The code contains the function preproc_df(filename) with all the transformations, which can be used to get a dataframe from the train or test dataset
 
-* The class 155 is perfectly balanced: 50% with value 0, 50% with value 1
+* There are 152 features. The class 155 is perfectly balanced: 50% with value 0, 50% with value 1
 
-* After plotting the features, it's clear that none of them has a normal distribution. Most features are binary, having only the values 1 and 0
+* Step 1 - The dataframe has many features with no values, then I used a for loop check the std for each columns: if the std == 0, then the feature is deleted. From the original 153 features we end up with 79.
 
-* Initially the features have been sorted by Pearson and by non-parametric correlations (Kendall and Spearman) but then this solution has been discarded. It has been created the file FeaturesByCorrelation.md for reference
+* Step 2 - There are duplicated features, that is having exactly the same values: these columns (14) can be removed as well. The dataframe has now 64 features and 1 class
 
+* After plotting the features, it's clear that none of them has a normal distribution
 
-* Tried to transform the data using normalisation, standardisation and also PowerTransformer, but there was no or just little improvement in the normal distribution
+* Step 3 - Remove highly correlated features (kendall/spearman >= 0.9): the dataframe has 45 features + 1 class
 
-* Decided to binarise every non-binary features: not sure this is the best solution
+* The only useful transformation seems to be the standardization. Normalizer, PowerTransformer, Binarizer have been tried unsuccessfully
 
-* Now there are 2 dataframes available: df and df_binarized (having both 78 features + 1 class)
-
-* Some features have duplicates, then they can be removed from the previous dataframes: the new dataframes have 65 and 36 features
-
-
+* Step 4 - Standardize the features to give them a distribution closer to the normal one (mean = 0, sd = 1)
 
 
 SELECTING FEATURES (INDIVIDUAL 2) - Ian
