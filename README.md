@@ -9,9 +9,9 @@ PRE-PROCESSING (INDIVIDUAL 1) - Michael
 
 * There are 152 features. The class 155 is perfectly balanced: 50% with value 0, 50% with value 1
 
-* Step 1 - The dataframe has many features with no values, then I used a for loop check the std for each columns: if the std == 0, then the feature is deleted. From the original 153 features we end up with 79.
+* Step 1 - The dataframe has many features with no values, then I used a for loop to check the std for each columns: if the std == 0, then the feature is deleted. From the original 153 features we end up with 79.
 
-* Step 2 - There are duplicated features, that is having exactly the same values: these columns (14) can be removed as well. The dataframe has now 64 features and 1 class
+* Step 2 - There are duplicated features, that is they have the same values: these columns (14) can be removed as well. The dataframe has now 64 features and 1 class
 
 * After plotting the features, it's clear that none of them has a normal distribution
 
